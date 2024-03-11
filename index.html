@@ -19,6 +19,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                'white-60': "rgba(255, 255, 255, 0.60)"
               }
             }
           }
@@ -85,6 +86,47 @@
                     </div>
                 </div>
             </div>
+        </div>
+
+        <!-- Banner -->
+        <div class="carousel w-full relative">
+            <div id="slide1" class="carousel-item relative w-full z-10">
+              <img src="/Images/1.png" class="w-full" />
+              <div class="absolute flex justify-center lg:justify-start md:justify-start transform -translate-y-1/2 lg:left-8 lg:bottom-8 md:left-4 md:bottom-4 inset-x-0 bottom-0 gap-4">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full z-10">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-center lg:justify-start md:justify-start transform -translate-y-1/2 lg:left-8 lg:bottom-8 md:left-4 md:bottom-4 inset-x-0 bottom-0 gap-4">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full z-10">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-center lg:justify-start md:justify-start transform -translate-y-1/2 lg:left-8 lg:bottom-8 md:left-4 md:bottom-4 inset-x-0 bottom-0 gap-4">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full z-10">
+              <img src="Images/1.png" class="w-full" />
+              <div class="absolute flex justify-center lg:justify-start md:justify-start transform -translate-y-1/2 lg:left-8 lg:bottom-8 md:left-4 md:bottom-4 inset-x-0 bottom-0 gap-4">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div class="bg-[#131318] rounded-2xl absolute z-40 lg:max-w-[564px] md:max-w-[432px] lg:right-8 lg:bottom-8 md:right-4 md:bottom-4 -bottom-10 p-8 lg:block md:block hidden">
+                <h3 class="text-2xl text-[#fff] font-extrabold mb-4">Meet all the heroes from the field</h3>
+                <p class="text-white-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urnaz in sit nullam proin. </p>
+            </div>
+          </div>
+          <!-- Mobile: Meet all heros -->
+          <div class="bg-[#131318] rounded-2xl p-4 mt-4 lg:hidden md:hidden">
+            <h3 class="text-lg text-[#fff] font-extrabold mb-2">Meet all the heroes from the field</h3>
+            <p class="text-white-60 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urnaz in sit nullam proin. </p>
         </div>
     </header>
 
